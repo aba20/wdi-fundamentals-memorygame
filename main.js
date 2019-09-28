@@ -42,3 +42,10 @@ flipCard([2]);
 
 console.log(cardImage);
 console.log(suit)
+
+
+function createBoard() {
+    for (var i = 0; i < arrayName.lenght; i++)
+    var newListItem = document.createElement('img');
+    newListeItem.setAttribute('src', '/Users/Abdulrahman/Desktop/images/back.png');
+};
